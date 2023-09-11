@@ -28,13 +28,13 @@ class Navbar extends Component {
         <img src={Logo} alt="Logo UAM" className="logo" />
         <ul className={`navbar-options ${isMenuOpen ? 'active' : ''}`}>
           <li>
-            <a href="./pages/flex.html">Flexbox</a>
+            <a href="#Flexbox">Flexbox</a>
           </li>
           <li>
-            <a href="./pages/contact.html">Contact</a>
+            <a href="#Contact">Contact</a>
           </li>
           <li>
-            <a href="./pages/products.html">Products</a>
+            <a href="#Products">Products</a>
           </li>
         </ul>
         <div className="avatar-container">

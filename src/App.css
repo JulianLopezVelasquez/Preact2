@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+/* CSS para ocultar todas las secciones por defecto */
+.section-padding {
+  display: none;
+}
+
+/* CSS para mostrar la sección activa */
+.section-padding.active {
+  display: block;
+}
+
+.Flexbox{
+  
+}
