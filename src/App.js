@@ -3,6 +3,8 @@ import './App.scss';
 import Cube from './components/cube/cube';
 import Menu from './components/menu/menu';
 
+
+
 function App() {
   const [selectedSection, setSelectedSection] = useState(null);
 
@@ -25,7 +27,6 @@ function App() {
                 <div className="section-title">
                   <a href="#Flexbox" target="_blank">
                   </a>
-                  <hr className="botm-line" />
                   <p className="sec-para"></p>
                 </div>
               </div>
@@ -36,7 +37,7 @@ function App() {
         </section>
         <section
             id="Contact"
-            className={`section-padding2 ${selectedSection === 'Flexbox' ? 'active' : ''}`}
+            className={`section-padding2 ${selectedSection === 'Contact' ? 'active' : ''}`}
             style={{ width: 'auto', height: '1000px' }}>
           <div className="container">
             <div className="row">
@@ -44,7 +45,6 @@ function App() {
                 <div className="section-title">
                   <a href="#Contact" target="_blank">
                   </a>
-                  <hr className="botm-line" />
                   <p className="sec-para"></p>
                 </div>
               </div>
@@ -55,15 +55,15 @@ function App() {
         </section>
         <section
             id="Products"
-            className={`section-padding3 ${selectedSection === 'Flexbox' ? 'active' : ''}`}
-            style={{ width: 'auto', height: '1500px' }}>
+            className={`section-padding3 ${selectedSection === 'Products' ? 'active' : ''}`}
+            style={{ width: 'auto', height: '1000px' }}>
           <div className="container">
             <div className="row">
               <div className="col-md-3 wow fadeInLeft delay-05s">
                 <div className="section-title">
                   <a href="#Contact" target="_blank">
                   </a>
-                  <hr className="botm-line" />
+
                   <p className="sec-para"></p>
                 </div>
               </div>
