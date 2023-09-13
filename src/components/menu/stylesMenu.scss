@@ -96,13 +96,13 @@ body {
    .navbar-options-icon-mode {
     display: flex;
     flex-direction: column;
-    background-color: rgb(232, 232, 232);
+    background-color: rgba(105, 103, 103, 0.594);
     position: fixed; 
-    top: 250px; 
+    top: 300px; 
     transition: left 0.3s;
     border-radius: 25%;
-    border: 1px solid #060606;
     cursor: pointer;
+    text-align: center;
   }
 
   .iconM{
@@ -111,10 +111,6 @@ body {
     img{
         max-width: 20px;
       }
-  }
-
-  .navbar-options-icon-mode.active {
-    left: 0; 
   }
   
   .navbar-options-icon-mode .icon {
