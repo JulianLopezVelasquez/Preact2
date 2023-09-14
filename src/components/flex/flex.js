@@ -10,9 +10,9 @@ function Flex() {
         </div>
         <img src="../assets/images/logo.png" alt="Logo UAM" className="logo" />
         <ul className="navbar-options">
-          <li><a href="#Flexbox">Flexbox</a></li>
-          <li><a href="#Contact">Contact</a></li>
-          <li><a href="#Products">Products</a></li>
+          <li><a href="Flexbox">Flexbox</a></li>
+          <li><a href="Contact">Contact</a></li>
+          <li><a href="Products">Products</a></li>
         </ul>
         <div className="avatar-container">
           <img src="../assets/images/avatar.png" className="avatar" alt="Foto de perfil" />
@@ -21,7 +21,9 @@ function Flex() {
       <div className="content">
         <h1>Flex works</h1>
       </div>
-      <div className="footer"></div>
+      <div className="footer">
+        <h1>Hola</h1>
+      </div>
     </div>
   );
 }
