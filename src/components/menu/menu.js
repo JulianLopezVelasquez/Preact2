@@ -50,10 +50,10 @@ class Navbar extends Component {
               <img src={homeIcon} alt="Home" />
             </div>
             <div className="iconM" onClick={() => this.scrollToSection('Contact')}>
-              <img src={contactIcon} alt="Contact" />
+              <img src={contactIcon} alt="Contact"/>
             </div>
             <div className="iconM" onClick={() => this.scrollToSection('Products')}>
-              <img src={menuIcon} alt="Product" />
+              <img src={menuIcon} alt="Product"/>
             </div>
           </div>
         )}

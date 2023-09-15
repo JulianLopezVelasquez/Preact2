@@ -1,9 +1,8 @@
-import React from 'react';
-import './styles-products.scss'; 
+import React from 'react'
 
-function Products() {
+const products = () => {
   return (
-    <div className="container">
+      <div className="container">
       <div className="menu">
         <div className="navbar-toggle">
           <i className="fas fa-bars"></i>
@@ -23,7 +22,7 @@ function Products() {
       </div>
       <div className="footer"></div>
     </div>
-  );
+  )
 }
 
-export default Products;
+export default products
