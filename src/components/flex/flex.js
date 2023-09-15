@@ -1,7 +1,6 @@
-import React from 'react';
-import './styles-flex.scss';
+import React from 'react'
 
-function Flex() {
+const flex = () => {
   return (
     <div className="container">
       <div className="menu">
@@ -18,14 +17,15 @@ function Flex() {
           <img src="../assets/images/avatar.png" className="avatar" alt="Foto de perfil" />
         </div>
       </div>
+
       <div className="content">
-        <h1>Flex works</h1>
+        <h1>Insta</h1>
       </div>
       <div className="footer">
         <h1>Hola</h1>
       </div>
     </div>
-  );
+  )
 }
 
-export default Flex;
+export default flex

@@ -1,27 +1,29 @@
 import React, { useState } from 'react';
-import './App.scss';
-import Cube from './components/cube/cube';
-import Menu from './components/menu/menu';
+import Cube from '../cube/cube';
+import Menu from '../menu/menu';
 
-function App() {
-  
+import './home.scss';
 
+function Home() {
+    const [selectedSection, setSelectedSection] = useState(null);
+
+    const handleSectionClick = (sectionId) => {
+      setSelectedSection(sectionId);
+    };
   return (
-    <div className="App">
+    <div className="home">
       <Cube />
       <Menu onSectionClick={handleSectionClick} />
       <div className="content">
       <section
-  id="Flexbox"
-  className={`section-padding1 ${selectedSection === 'Flexbox' ? 'active' : ''}`}
-  style={{height: '1000px' }}>
+        id="Flexbox"
+        className={`section-padding1 ${selectedSection === 'Flexbox' ? 'active' : ''}`}>
           <div className="container">
             <div className="row">
               <div className="col-md-3 wow fadeInLeft delay-05s">
                 <div className="section-title">
                   <a href="#Flexbox" target="_blank">
                   </a>
-                  <hr className="botm-line" />
                   <p className="sec-para"></p>
                 </div>
               </div>
@@ -32,15 +34,13 @@ function App() {
         </section>
         <section
             id="Contact"
-            className={`section-padding2 ${selectedSection === 'Flexbox' ? 'active' : ''}`}
-            style={{ width: 'auto', height: '1000px' }}>
+            className={`section-padding2 ${selectedSection === 'Contact' ? 'active' : ''}`}>
           <div className="container">
             <div className="row">
               <div className="col-md-3 wow fadeInLeft delay-05s">
                 <div className="section-title">
                   <a href="#Contact" target="_blank">
                   </a>
-                  <hr className="botm-line" />
                   <p className="sec-para"></p>
                 </div>
               </div>
@@ -51,15 +51,14 @@ function App() {
         </section>
         <section
             id="Products"
-            className={`section-padding3 ${selectedSection === 'Flexbox' ? 'active' : ''}`}
-            style={{ width: 'auto', height: '1500px' }}>
+            className={`section-padding3 ${selectedSection === 'Products' ? 'active' : ''}`}>
           <div className="container">
             <div className="row">
               <div className="col-md-3 wow fadeInLeft delay-05s">
                 <div className="section-title">
                   <a href="#Contact" target="_blank">
                   </a>
-                  <hr className="botm-line" />
+
                   <p className="sec-para"></p>
                 </div>
               </div>
@@ -69,16 +68,10 @@ function App() {
           </div>
         </section>
 
-
-      </div>
-      <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/facebook" element={<Facebook />} />
-          <Route path="/instagram" element={<Instagram />} />
-          <Route path="/twitter" element={<Twitter />} />
-        </Routes>
-    </Router>
+    </div>
+    </div>
+    
   );
 }
 
-export default App;
+export default Home;

@@ -1,7 +1,6 @@
-import React from 'react';
-import './styles-contact-scss'; 
+import React from 'react'
 
-function Contact() {
+const contact = () => {
   return (
     <div className="container">
       <div className="menu">
@@ -18,9 +17,11 @@ function Contact() {
           <img src="../assets/images/avatar.png" className="avatar" alt="Foto de perfil" />
         </div>
       </div>
-      <div className="footer"></div>
+      <div className="footer">
+        <h2>Pagina Contact</h2>
+      </div>
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default contact
