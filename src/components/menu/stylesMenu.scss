@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(232, 232, 232);
+    background-color: rgb(200, 197, 197);
     padding: 0px 20px;
     height: 70px;
     position: fixed; /* Mantén el menú fijo en la parte superior */
@@ -53,16 +53,16 @@ body {
   }
   
   .navbar-options a {
-    text-decoration: none;
+    text-decoration: solid;
     font-size: 17px;
     font-weight: 400;
-    color: black;
+    color: rgb(3, 3, 144);
     padding: 5px 10px;
     transition: background-color 0.3s;
   }
   
   .navbar-options a:hover {
-    color: rgb(40, 40, 53);
+    color: rgb(65, 65, 81);
   }
   
   .navbar-options a:active {
