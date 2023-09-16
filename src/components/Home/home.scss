@@ -22,32 +22,32 @@
   
         &.front {
           transform: translateZ(50px);
-          background: linear-gradient(45deg, #423b39, #67645c);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.back {
           transform: translateZ(50px);
-          background: linear-gradient(45deg, #423b39, #67645c);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.top {
           transform: rotateX(90deg) translateZ(50px);
-          background: linear-gradient(45deg, #423b39, #67645c);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.bottom {
           transform: rotateX(90deg) translateZ(-50px);
-          background: linear-gradient(45deg, #423b39, #67645c);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.left {
           transform: rotateY(90deg) translateZ(50px);
-          background: linear-gradient(45deg, #423b39, #67645c);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.right {
           transform: rotateY(90deg) translateZ(-50px);
-          background: linear-gradient(45deg, #423b39, #67645c);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
       }
     }
@@ -235,16 +235,16 @@
   }
 
   .section-padding1 {
-    background: linear-gradient(45deg, #F08CAE, #f1467f);
+    background: linear-gradient(5deg, #F08CAE, #f1467f);
     height: 1000px; 
   }
   .section-padding2 {
-    background: linear-gradient(45deg, #F08CAE, #f1467f);
+    background: linear-gradient(10deg, #FECEA8, #f3a05c);
     width: auto;
     height: 1000px; 
   }
   .section-padding3 {
-    background-color: rgb(255, 231, 53);
+    background: linear-gradient(15deg, #99B898, #7ed27b);
     width: auto;
     height: 1000px;
   }
