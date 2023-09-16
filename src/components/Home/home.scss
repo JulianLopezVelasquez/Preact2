@@ -22,32 +22,32 @@
   
         &.front {
           transform: translateZ(50px);
-          background: linear-gradient(45deg, #F25022, #FFB900);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.back {
           transform: translateZ(50px);
-          background: linear-gradient(45deg, #F25022, #FFB900);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.top {
           transform: rotateX(90deg) translateZ(50px);
-          background: linear-gradient(45deg, #F25022, #FFB900);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.bottom {
           transform: rotateX(90deg) translateZ(-50px);
-          background: linear-gradient(45deg, #F25022, #FFB900);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.left {
           transform: rotateY(90deg) translateZ(50px);
-          background: linear-gradient(45deg, #F25022, #FFB900);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
   
         &.right {
           transform: rotateY(90deg) translateZ(-50px);
-          background: linear-gradient(45deg, #F25022, #FFB900);
+          background: linear-gradient(45deg, #593F62, #8e4ca4);
         }
       }
     }
@@ -63,39 +63,40 @@
   
       div {
         position: absolute;
-        background-color: blue;
+        background-color: rgb(48, 48, 79);
         width: 100px;
         height: 100px;
         opacity: 0.8;
   
         &.front {
           transform: translateZ(50px);
-          background: linear-gradient(45deg, #AAB8C2, #657786);
+          background: linear-gradient(45deg, #4d4745, #31508f);
+
         }
   
         &.back {
           transform: translateZ(50px);
-          background: linear-gradient(45deg, #AAB8C2, #657786);
+          background: linear-gradient(45deg, #4d4745, #31508f);
         }
   
         &.top {
           transform: rotateX(90deg) translateZ(50px);
-          background: linear-gradient(45deg, #AAB8C2, #657786);
+          background: linear-gradient(45deg, #4d4745, #31508f);
         }
   
         &.bottom {
           transform: rotateX(90deg) translateZ(-50px);
-          background: linear-gradient(45deg, #AAB8C2, #657786);
+          background: linear-gradient(45deg, #4d4745, #31508f);
         }
   
         &.left {
           transform: rotateY(90deg) translateZ(50px);
-          background: linear-gradient(45deg, #AAB8C2, #657786);
+          background: linear-gradient(45deg, #4d4745, #31508f);
         }
   
         &.right {
           transform: rotateY(90deg) translateZ(-50px);
-          background: linear-gradient(45deg, #AAB8C2, #657786);
+          background: linear-gradient(45deg, #4d4745, #31508f);
         }
       }
     }
@@ -234,16 +235,16 @@
   }
 
   .section-padding1 {
-    background-color: black;
+    background: linear-gradient(5deg, #F08CAE, #f1467f);
     height: 1000px; 
   }
   .section-padding2 {
-    background-color: rgb(249, 0, 0);
+    background: linear-gradient(10deg, #FECEA8, #f3a05c);
     width: auto;
     height: 1000px; 
   }
   .section-padding3 {
-    background-color: rgb(255, 231, 53);
+    background: linear-gradient(15deg, #99B898, #7ed27b);
     width: auto;
     height: 1000px;
   }
